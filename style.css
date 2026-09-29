@@ -1,0 +1,44 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  background-image: url("car.jpg");
+}
+h1 {
+    color: rgb(65, 35, 35);
+}
+div {
+    border-radius: 10px;
+    background-color: aliceblue;
+    width: 400px;
+    height: 150px;
+    border: black 2px solid;
+    background-image: url("paper.jpg");
+    box-shadow: 4px 4px 8px #9a703d;
+
+}
+.box:hover {
+    box-shadow: 8px 8px 16px #7f5b2f;
+    transition-duration: 0.5s;
+}
+button {
+    margin: 10px;
+}
+.b1 {
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(104, 74, 74);
+    border-color: rgb(65, 35, 35);
+    color: rgb(65, 35, 35);
+}
+.b2 {
+    width: 70px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(135, 90, 90);
+    border-color: rgb(65, 35, 35);
+    color: rgb(65, 35, 35);
+}
